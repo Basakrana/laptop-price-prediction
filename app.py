@@ -240,7 +240,7 @@ if st.button("🔮 Predict Price", type="primary", use_container_width=True):
         st.success("### Prediction Complete!")
         st.metric(
             label="Predicted Laptop Price",
-            value=f"${predicted_price:,.2f}",
+            value=f"Rs.{predicted_price:,.2f}",
             delta=None
         )
         
@@ -261,4 +261,5 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
+
 )
