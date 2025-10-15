@@ -245,7 +245,7 @@ if st.button("🔮 Predict Price", type="primary", use_container_width=True):
         )
         
         # Additional info
-        st.info(f"**Log-transformed prediction:** {log_prediction[0]:.4f}")
+        st.info(f"Created By Rana Basak}")
         
     except Exception as e:
         st.error(f"Error making prediction: {str(e)}")
@@ -263,4 +263,5 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
