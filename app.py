@@ -245,7 +245,7 @@ if st.button("🔮 Predict Price", type="primary", use_container_width=True):
         )
         
         # Additional info
-        st.info(f"Created By Rana Basak}")
+        st.markdown("### Predict laptop prices using XGBoost Machine Learning Model")
         
     except Exception as e:
         st.error(f"Error making prediction: {str(e)}")
@@ -263,5 +263,6 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
 
 
